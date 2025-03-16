@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+    margin: 0;
+}
+.todo-container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.task-input {
+    display: flex;
+}
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.task-input button {
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.remove-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
