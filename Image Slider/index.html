@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery">
+        <button class="left-button prev">Prev</button>
+        <img id="mainImage" src="" alt="Gallery Image" />
+        <button class="right-button next">Next</button>
+      </div>
+
+      <div class="thumbnail-container" id="thumbnailContainer"></div>
+      <div class="input-container">
+        <input type="text" id="imageURL" placeholder="Paste your URL here" />
+        <button id="addImage">Add</button>
+        <button id="uploadButton">Upload</button>
+        <input type="file" id="uploadImage" style="display: none" />
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
